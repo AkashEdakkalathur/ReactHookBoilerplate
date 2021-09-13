@@ -16,6 +16,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          {process.env.REACT_APP_ENV_NAME}
         </a>
       </header>
     </div>
