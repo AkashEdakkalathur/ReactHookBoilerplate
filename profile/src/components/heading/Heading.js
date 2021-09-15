@@ -14,7 +14,7 @@ const Heading = ()=> {
         payload:count+1
     });
   }
-console.log(counterStore,"counterStore")
+
   return (
     <div>
       <p>You clicked {count} times</p>
